@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "@jazida-opensource/sequelize",
   "description": "Multi dialect ORM for Node.JS",
   "version": "0.0.0-development",
   "maintainers": [
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "https://github.com/jazida-opensource/sequelize.git"
   },
   "bugs": {
-    "url": "https://github.com/sequelize/sequelize/issues"
+    "url": "https://github.com/jazida-opensource/sequelize/issues"
   },
   "homepage": "https://sequelize.org/",
   "main": "index.js",
@@ -150,6 +150,7 @@
     ]
   },
   "publishConfig": {
+    "access": "public",
     "tag": "latest"
   },
   "scripts": {
