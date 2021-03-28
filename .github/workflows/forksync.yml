@@ -12,10 +12,12 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         name: sync master branch
         with:
+          owner: sequelize
           base: main
           head: main
       - uses: tgymnich/fork-sync@v1.4
         name: sync v6 branch
         with:
+          owner: sequelize
           base: v6
           head: v6
