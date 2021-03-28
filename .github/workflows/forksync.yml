@@ -12,8 +12,8 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         name: sync master branch
         with:
-          base: master
-          head: master
+          base: main
+          head: main
       - uses: tgymnich/fork-sync@v1.4
         name: sync v6 branch
         with:
