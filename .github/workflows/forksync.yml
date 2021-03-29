@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: tgymnich/fork-sync@v1.4
-        name: sync master branch
+        name: sync main branch
         with:
-          owner: sequelize
+          owner: jazida-opensource
           base: main
           head: main
       - uses: tgymnich/fork-sync@v1.4
