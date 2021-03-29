@@ -12,12 +12,12 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         name: sync main branch
         with:
-          owner: jazida-opensource
+          owner: danielfsousa
           base: main
           head: main
       - uses: tgymnich/fork-sync@v1.4
         name: sync v6 branch
         with:
-          owner: sequelize
+          owner: danielfsousa
           base: v6
           head: v6
