@@ -13,6 +13,12 @@ Sequelize follows [Semantic Versioning](http://semver.org) and supports Node v10
 
 New to Sequelize? Take a look at the [Tutorials and Guides](https://sequelize.org/master). You might also be interested in the [API Reference](https://sequelize.org/master/identifiers).
 
+### Fork notes
+
+- Fixed mssql error: `The column 'Id' was specified multiple times for 'Table'.`
+  - Issue: https://github.com/sequelize/sequelize/issues/11700
+  - Pull request: https://github.com/jazida-opensource/sequelize/pull/1
+
 ### v6 Release
 
 You can find the detailed changelog [here](https://github.com/sequelize/sequelize/blob/main/docs/manual/other-topics/upgrade-to-v6.md).
