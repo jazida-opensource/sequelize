@@ -2,7 +2,7 @@ version: "1"
 rules:
   - base: main
     upstream: sequelize:main
-    mergeMethod: merge
+    # mergeMethod: merge
   - base: v6
     upstream: sequelize:v6
-    mergeMethod: merge
+    # mergeMethod: merge
