@@ -2,7 +2,11 @@ version: "1"
 rules:
   - base: main
     upstream: sequelize:main
-    # mergeMethod: merge
+    mergeMethod: merge
+    conflictReviewers:
+      - tvaamorim
   - base: v6
     upstream: sequelize:v6
-    # mergeMethod: merge
+    mergeMethod: merge
+    conflictReviewers:
+      - tvaamorim
