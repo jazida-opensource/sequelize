@@ -2,7 +2,9 @@
 
 [![npm version](https://badgen.net/npm/v/sequelize)](https://www.npmjs.com/package/sequelize)
 [![Build Status](https://github.com/sequelize/sequelize/workflows/CI/badge.svg)](https://github.com/sequelize/sequelize/actions?query=workflow%3ACI)
+
 <!-- [![codecov](https://badgen.net/codecov/c/github/sequelize/sequelize/main?icon=codecov)](https://codecov.io/gh/sequelize/sequelize) -->
+
 [![npm downloads](https://badgen.net/npm/dm/sequelize)](https://www.npmjs.com/package/sequelize)
 [![Merged PRs](https://badgen.net/github/merged-prs/sequelize/sequelize)](https://github.com/sequelize/sequelize)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -13,11 +15,17 @@ Sequelize follows [Semantic Versioning](http://semver.org) and supports Node v10
 
 New to Sequelize? Take a look at the [Tutorials and Guides](https://sequelize.org/master). You might also be interested in the [API Reference](https://sequelize.org/master/identifiers).
 
+
+
 ### Fork notes
 
 - Fixed mssql error: `The column 'Id' was specified multiple times for 'Table'.`
   - Issue: https://github.com/sequelize/sequelize/issues/11700
   - Pull request: https://github.com/jazida-opensource/sequelize/pull/1
+    
+    Would you like to contribute? Read [our contribution guidelines](https://github.com/sequelize/sequelize/blob/main/CONTRIBUTING.md) to know more. There are many ways to help.
+
+
 
 ### v6 Release
 
@@ -73,3 +81,4 @@ If you have security issues to report, please refer to our [Responsible Disclosu
 
 - [English](https://sequelize.org/master) (OFFICIAL)
 - [中文文档](https://github.com/demopark/sequelize-docs-Zh-CN) (UNOFFICIAL)
+
